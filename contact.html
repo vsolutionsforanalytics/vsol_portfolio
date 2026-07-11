@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — V Solutions</title>
+<meta name="description" content="Get in touch with V Solutions to discuss your analytics, dashboard, or data engineering project.">
+<link rel="icon" href="assets/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/img/logo.png" alt="V Solutions logo">
+      <span>V Solutions</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="industries.html">Industries</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html" class="nav-cta" aria-current="page">Book a Consultation</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+    <p class="eyebrow on-dark">Contact</p>
+    <h1>Tell us what you're working with.</h1>
+    <p>Share a bit about your data and what decision you're trying to make faster — we'll reply within one business day.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col">
+
+    <div>
+      <form id="contact-form" class="form-grid">
+        <div>
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Work email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company">
+        </div>
+        <div>
+          <label for="service">What are you interested in?</label>
+          <select id="service" name="service">
+            <option>Business Intelligence &amp; Dashboards</option>
+            <option>Data Engineering &amp; ETL</option>
+            <option>AI &amp; Machine Learning</option>
+            <option>Cloud Migration &amp; Analytics</option>
+            <option>Analytics Consulting</option>
+            <option>Corporate Training</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="form-status" style="font-size:0.9rem;"></p>
+      </form>
+      <p style="font-size:0.8rem; color:var(--slate-light); margin-top:10px;">
+        This form is a placeholder — connect it to Formspree, EmailJS, or another form service before launch (see comments in assets/js/main.js).
+      </p>
+    </div>
+
+    <div>
+      <div class="card-dark" style="background:var(--navy-deep); border-color:var(--line);">
+        <h3 style="color:var(--navy);">Direct contact</h3>
+        <ul class="bar-list" style="color:var(--slate);">
+          <li>info@vsol.cloud</li>
+          <li>+91 7904356983</li>
+          <li>Remote-first &bull; available worldwide</li>
+        </ul>
+      </div>
+      <div class="mt-large">
+        <p class="eyebrow">Prefer to schedule directly?</p>
+        <p>Book a 30-minute discovery call at a time that works for you.</p>
+        <a href="#" class="btn btn-ghost">Open Scheduling Link</a>
+      </div>
+      <div class="mt-large">
+        <p class="eyebrow">Follow along</p>
+        <div class="pill-row">
+          <span class="pill">LinkedIn</span>
+          <span class="pill">GitHub</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/img/logo.png" alt="V Solutions logo">
+          <span>V Solutions</span>
+        </div>
+        <p style="max-width:280px; font-size:0.92rem;">Data &bull; Insight &bull; Impact — turning data into decisions.</p>
+        <div class="social-row">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="GitHub">gh</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Business Intelligence</a></li>
+          <li><a href="services.html">Data Engineering</a></li>
+          <li><a href="services.html">AI &amp; Machine Learning</a></li>
+          <li><a href="services.html">Analytics Consulting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> V Solutions. All rights reserved.</span>
+      <span>info@vsol.cloud</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
